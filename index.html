@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Sneyder Steven Gómez Acuña</title>
+    <meta name="description" content="Portafolio de Sneyder Steven Gómez Acuña, estudiante de Desarrollo de Software.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stars-layer" aria-hidden="true">
+        <div class="stars-small"></div>
+        <div class="stars-medium"></div>
+        <div class="stars-large"></div>
+    </div>
+    <div class="ambient-glow glow-a" aria-hidden="true"></div>
+    <div class="ambient-glow glow-b" aria-hidden="true"></div>
+
+    <div class="page">
+        <header id="site-header">
+            <div class="nav-inner">
+                <a href="#inicio" class="brand">Sneyder<span>Steven</span></a>
+
+                <nav id="nav-menu">
+                    <a href="#inicio" class="nav-link active">Inicio</a>
+                    <a href="#proyectos" class="nav-link">Proyectos</a>
+                    <a href="#habilidades" class="nav-link">Habilidades</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </nav>
+
+                <button id="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero" id="inicio">
+                <div class="hero-content reveal">
+                    <div class="section-title">Portafolio personal</div>
+                    <h1 class="hero-title">
+                        <span>Hola, soy</span>
+                        <span class="name">Sneyder Steven<br>Gómez Acuña</span>
+                    </h1>
+                    <p class="hero-subtitle">Soy estudiante de Desarrollo de Software, apasionado por la tecnología y la creación de soluciones digitales. Me encuentro en constante aprendizaje, fortaleciendo mis conocimientos en programación, desarrollo de aplicaciones y buenas prácticas de software.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#proyectos">Ver proyectos</a>
+                        <a class="button button-secondary" href="#contacto">Contáctame</a>
+                    </div>
+                </div>
+
+                <div class="hero-card reveal">
+                    <div class="stage">
+                        <div class="ring-dash"></div>
+                        <div class="ring"></div>
+                        <div class="bracket b-tl"></div>
+                        <div class="bracket b-tr"></div>
+                        <div class="bracket b-bl"></div>
+                        <div class="bracket b-br"></div>
+                        <div class="photo-wrap">
+                            <img src="imagenes/foto-perfil.png" alt="Foto de perfil de Sneyder Steven">
+                            <div class="scan"></div>
+                        </div>
+                    </div>
+                    <div class="stage-label">
+                        <span class="tag">Dev · Software</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="proyectos">
+                <div class="section-title reveal">Proyectos</div>
+                <div class="grid projects-grid">
+                    <article class="card reveal">
+                        <div class="card-icon"><i class="fa-solid fa-paw"></i></div>
+                        <h3>Patitas Felices</h3>
+                        <p>Proyecto HTML y CSS para una empresa de adopción de animales. Incluye diseño responsivo, presentación de mascotas y llamada a la acción para adopción.</p>
+                        <a class="button button-primary" href="https://gomezacunasneyder-cell.github.io/patitasfelices/" target="_blank" rel="noreferrer">Ver proyecto</a>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card-icon"><i class="fa-solid fa-bolt"></i></div>
+                        <h3>Landing interactiva</h3>
+                        <p>Diseño de landing page moderna con animaciones suaves y navegación clara para atraer clientes potenciales.</p>
+                        <a class="button button-primary" href="https://gomezacunasneyder-cell.github.io/Landing-interactiva/" target="_blank" rel="noreferrer">Ver proyecto</a>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card-icon"><i class="fa-solid fa-industry"></i></div>
+                        <h3>Gestión de producción</h3>
+                        <p>Sistema para el control y seguimiento de procesos de producción: registro de órdenes, control de avances y reportes del estado de fabricación.</p>
+                        <!-- TODO: reemplaza este enlace por el link real de tu proyecto (repositorio o demo) -->
+                        <a class="button button-primary" href="#" target="_blank" rel="noreferrer">Ver proyecto</a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section" id="habilidades">
+                <div class="section-title reveal">Habilidades</div>
+                <div class="skills-list">
+                    <div class="skill-pill reveal"><i class="fa-brands fa-html5"></i>HTML</div>
+                    <div class="skill-pill reveal"><i class="fa-brands fa-css3-alt"></i>CSS</div>
+                    <div class="skill-pill reveal"><i class="fa-brands fa-square-js"></i>JavaScript</div>
+                    <div class="skill-pill reveal"><i class="fa-brands fa-github"></i>GitHub</div>
+                </div>
+            </section>
+
+            <section class="section" id="contacto">
+                <div class="section-title reveal">Contacto</div>
+                <div class="contact-grid">
+                    <div class="contact-card reveal">
+                        <p>Estoy disponible para prácticas, trabajos junior o colaboraciones. ¡Vamos a crear algo genial juntos!</p>
+                        <a href="mailto:gomezacunasneyder@gmail.com"><i class="fa-solid fa-envelope"></i>gomezacunasneyder@gmail.com</a>
+                        <a href="tel:+573143926018"><i class="fa-solid fa-phone"></i>314 392 6018</a>
+                        <a href="https://github.com/gomezacunasneyder-cell" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i>GitHub</a>
+                        <!-- TODO: reemplaza este enlace por tu perfil real de LinkedIn -->
+                        <a href="https://www.linkedin.com/in/tu-usuario" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                    </div>
+
+                    <form class="contact-form reveal" id="contact-form" novalidate>
+                        <!-- TODO: reemplaza tu-correo@gmail.com por tu correo real en formsubmit.co -->
+                        <input type="hidden" name="_subject" value="Nuevo mensaje desde el portafolio">
+                        <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">
+
+                        <div class="field">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                            <span class="error-msg" data-for="name"></span>
+                        </div>
+
+                        <div class="field">
+                            <label for="email">Correo</label>
+                            <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+                            <span class="error-msg" data-for="email"></span>
+                        </div>
+
+                        <div class="field">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Cuéntame en qué puedo ayudarte" required></textarea>
+                            <span class="error-msg" data-for="message"></span>
+                        </div>
+
+                        <button type="submit" class="button button-primary" id="submit-btn">
+                            <span class="btn-text">Enviar mensaje</span>
+                            <span class="btn-spinner" aria-hidden="true"></span>
+                        </button>
+
+                        <p class="form-status" id="form-status" role="status"></p>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-inner">
+                <div class="footer-brand">Sneyder Steven Gómez Acuña</div>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/tu-usuario" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/gomezacunasneyder-cell" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:gomezacunasneyder@gmail.com" aria-label="Correo"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <p class="footer-copy">&copy; <span id="year"></span> Sneyder Steven Gómez Acuña</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
